@@ -1,0 +1,6 @@
+{
+  "name": "TBM AIUEO Komunitas Ngejah",
+  "description": "Website profil resmi Taman Baca Masyarakat AIUEO Komunitas Ngejah Singajaya Garut. Menumbuhkan minat baca, menghidupkan kampung, membuka masa depan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

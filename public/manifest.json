@@ -1,0 +1,16 @@
+{
+  "name": "TBM AIUEO Komunitas Ngejah",
+  "short_name": "TBM AIUEO",
+  "description": "Taman Baca Masyarakat AIUEO Komunitas Ngejah Garut",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#064e3b",
+  "theme_color": "#166534",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taman Baca AIUEO Komunitas Ngejah | Gerakan Literasi Garut</title>
+    
+    <!-- Meta Descriptions & SEO -->
+    <meta name="description" content="Website profil resmi Taman Baca Masyarakat (TBM) AIUEO Komunitas Ngejah di Desa Sukawangi, Singajaya, Garut. Menumbuhkan minat baca, menghidupkan kampung, membuka masa depan." />
+    <meta name="keywords" content="Taman Baca AIUEO, TBM AIUEO, Komunitas Ngejah, Taman Baca Garut, Gerakan Literasi Garut, TBM Singajaya, Literasi Desa Sukawangi, Komunitas Literasi Garut, Nero Taopik Abdillah" />
+    <meta name="author" content="Komunitas Ngejah - TBM AIUEO" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://tamanbaca-aiueo.my.id" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tamanbaca-aiueo.my.id" />
+    <meta property="og:title" content="Taman Baca AIUEO Komunitas Ngejah | Gerakan Literasi Garut" />
+    <meta property="og:description" content="Menumbuhkan minat baca, menghidupkan kampung, membuka masa depan. Ruang membaca, belajar, berkarya, berbagi, dan bertumbuh bersama masyarakat." />
+    <meta property="og:image" content="./assets/images/og-tbm-aiueo.jpg" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="TBM AIUEO Komunitas Ngejah" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Taman Baca AIUEO Komunitas Ngejah | Gerakan Literasi Garut" />
+    <meta name="twitter:description" content="Menumbuhkan minat baca, menghidupkan kampung, membuka masa depan." />
+    <meta name="twitter:image" content="./assets/images/og-tbm-aiueo.jpg" />
+
+    <!-- Favicon & PWA -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#166534" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & Plus Jakarta Sans / Fraunces / Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD for Organization, Breadcrumbs, and Local Community -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Taman Baca Masyarakat (TBM) AIUEO Komunitas Ngejah",
+      "alternateName": ["TBM AIUEO", "Komunitas Ngejah"],
+      "url": "https://tamanbaca-aiueo.my.id",
+      "logo": "https://tamanbaca-aiueo.my.id/favicon.svg",
+      "foundingDate": "2010-07-15",
+      "founder": {
+        "@type": "Person",
+        "name": "Nero Taopik Abdillah"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Kampung Sukawangi RT 03/RW 03",
+        "addressLocality": "Desa Sukawangi, Kecamatan Singajaya",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "44173",
+        "addressCountry": "ID"
+      },
+      "description": "Taman Baca Masyarakat AIUEO Komunitas Ngejah menjadi ruang untuk membaca, belajar, berkarya, berbagi, dan bertumbuh bersama masyarakat Garut Selatan.",
+      "sameAs": [
+        "https://komunitasngejah.wordpress.com",
+        "https://instagram.com/komunitasngejah"
+      ]
+    }
+    </script>
+
+    <!-- Dark Mode Initial Detection Script (Prevents FOUC) -->
+    <script>
+      (function() {
+        const storedTheme = localStorage.getItem('tbm_theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100 font-sans antialiased selection:bg-emerald-600 selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
+
